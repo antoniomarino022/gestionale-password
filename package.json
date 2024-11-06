@@ -1,0 +1,30 @@
+{
+  "scripts": {
+    "build": "tsc --noEmit && tsc --outDir build",
+    "dev": "npm run build && node build/index.js",
+    "start": "nodemon"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/sqlite3": "^3.1.11",
+    "@types/uuid": "^10.0.0",
+    "nodemon": "^3.1.7",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/validator": "^13.12.2",
+    "@types/winston": "^2.4.4",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "password-validator": "^5.3.0",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "uuid": "^11.0.2",
+    "validator": "^13.12.0",
+    "winston": "^3.16.0"
+  }
+}
