@@ -27,11 +27,37 @@ function initializeDatabase() {
     return __awaiter(this, void 0, void 0, function* () {
         const db = yield (0, db_1.getDb)();
         yield db.exec(`
-   
-  `);
+
+CREATE TABLE IF NOT EXISTS user (
+  id TEXT PRIMARY KEY, 
+  idUser TEXT UNIQUE NOT NULL, 
+  email TEXT UNIQUE NOT NULL,
+  password TEXT NOT NULL 
+);
+
+CREATE TABLE IF NOT EXISTS auth (
+  id TEXT PRIMARY KEY, 
+  idUser TEXT NOT NULL, 
+  token TEXT NOT NULL, 
+  FOREIGN KEY (idUser) REFERENCES user (idUser) ON DELETE CASCADE
+);
+
+CREATE TABLE IF NOT EXISTS credenziali (
+  id TEXT PRIMARY KEY,
+  idUser TEXT NOT NULL,
+  username TEXT NOT NULL, 
+  email TEXT NOT NULL, -- Aggiunta una virgola tra email e password
+  password TEXT NOT NULL, 
+  service TEXT NOT NULL, 
+  FOREIGN KEY (idUser) REFERENCES user (idUser) ON DELETE CASCADE
+);
+
+
+ `);
     });
 }
 initializeDatabase();
+// app.use("/user",);
 app.listen(port, () => {
     console.log(`Server in ascolto su http://localhost:${port}`);
 });

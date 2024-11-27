@@ -14,5 +14,4 @@ Un semplice gestionale di password costruito con Node.js, Express e sqlite. L'ap
 - **Backend**: Node.js, Express
 - **Database**: sqlite
 - **Crittografia**: bcrypt
-- **Frontend**: HTML, CSS,Bootstrap
 
