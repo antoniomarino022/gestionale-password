@@ -1,0 +1,20 @@
+### clean table user
+DELETE http://localhost:3000/user/clean
+Content-Type: application/json
+
+
+
+
+### register
+POST http://localhost:3000/user/register
+Content-Type: application/json
+
+{
+    "email":"antonio093@gmail.com",
+    "password":"H6@kjd76mdn4t"
+}
+
+
+### delete user
+DELETE http://localhost:3000/user/5b42ac50-f409-4515-b7ea-1012d80eeedb
+Content-Type: application/json

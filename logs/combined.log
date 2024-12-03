@@ -1,0 +1,32 @@
+{"email":"antonio093@gmail.com","level":"info","message":"Dati ricevuti:","password":"H6@kjd76mdn4t","service":"user-service","timestamp":"2024-12-02 17:37:58"}
+{"level":"info","message":"Verifica dell'utente esistente","service":"user-service","timestamp":"2024-12-02 17:37:58"}
+{"level":"info","message":"Tentativo di registrazione dell'utente","service":"user-service","timestamp":"2024-12-02 17:37:58"}
+{"level":"info","message":"Utente registrato con successo","service":"user-service","timestamp":"2024-12-02 17:37:59"}
+{"level":"info","message":"Dati ricevuti:","service":"user-service","timestamp":"2024-12-02 17:41:19"}
+{"level":"info","message":"tabella non eliminata ","service":"user-service","timestamp":"2024-12-02 17:41:19"}
+{"level":"info","message":"tabella non eliminata ","service":"user-service","timestamp":"2024-12-02 17:42:30"}
+{"email":"antonio093@gmail.com","level":"info","message":"Dati ricevuti:","password":"H6@kjd76mdn4t","service":"user-service","timestamp":"2024-12-02 17:43:25"}
+{"level":"info","message":"Verifica dell'utente esistente","service":"user-service","timestamp":"2024-12-02 17:43:25"}
+{"level":"info","message":"Tentativo di registrazione dell'utente","service":"user-service","timestamp":"2024-12-02 17:43:25"}
+{"level":"info","message":"Utente registrato con successo","service":"user-service","timestamp":"2024-12-02 17:43:25"}
+{"level":"info","message":"tabella eliminata con successo","service":"user-service","timestamp":"2024-12-02 17:43:28"}
+{"email":"antonio093@gmail.com","level":"info","message":"Dati ricevuti:","password":"H6@kjd76mdn4t","service":"user-service","timestamp":"2024-12-02 17:46:11"}
+{"level":"info","message":"Verifica dell'utente esistente","service":"user-service","timestamp":"2024-12-02 17:46:11"}
+{"level":"info","message":"Tentativo di registrazione dell'utente","service":"user-service","timestamp":"2024-12-02 17:46:11"}
+{"level":"info","message":"Utente registrato con successo","service":"user-service","timestamp":"2024-12-02 17:46:11"}
+{"level":"error","message":"errore standard di js:SQLITE_ERROR: near \"TABLE\": syntax error","service":"user-service","timestamp":"2024-12-02 17:46:16"}
+{"level":"info","message":"tabella svuotata con successo","service":"user-service","timestamp":"2024-12-02 17:46:51"}
+{"level":"info","message":"Verifica dell'utente esistente","service":"user-service","timestamp":"2024-12-03 10:08:05"}
+{"level":"info","message":"Tentativo di registrazione dell'utente","service":"user-service","timestamp":"2024-12-03 10:08:05"}
+{"level":"info","message":"Utente registrato con successo","service":"user-service","timestamp":"2024-12-03 10:08:05"}
+{"level":"error","message":"Errore standard di Js: SQLITE_RANGE: column index out of range","service":"user-service","timestamp":"2024-12-03 10:08:19"}
+{"level":"error","message":"Errore standard di Js: SQLITE_RANGE: column index out of range","service":"user-service","timestamp":"2024-12-03 10:09:46"}
+{"level":"error","message":"Errore standard di Js: SQLITE_RANGE: column index out of range","service":"user-service","timestamp":"2024-12-03 10:11:41"}
+{"level":"error","message":"Errore standard di Js: SQLITE_RANGE: column index out of range","service":"user-service","timestamp":"2024-12-03 10:11:42"}
+{"level":"error","message":"Errore standard di Js: SQLITE_RANGE: column index out of range","service":"user-service","timestamp":"2024-12-03 10:12:51"}
+{"level":"error","message":"Errore standard di Js: SQLITE_RANGE: column index out of range","service":"user-service","timestamp":"2024-12-03 10:13:51"}
+{"level":"error","message":"Errore standard di Js: SQLITE_RANGE: column index out of range","service":"user-service","timestamp":"2024-12-03 10:19:50"}
+{"level":"error","message":"Errore standard di Js: SQLITE_RANGE: column index out of range","service":"user-service","timestamp":"2024-12-03 10:20:32"}
+{"level":"error","message":"Errore standard di Js: SQLITE_RANGE: column index out of range","service":"user-service","timestamp":"2024-12-03 10:22:34"}
+{"level":"error","message":"Errore standard di Js: SQLITE_ERROR: near \"idUser\": syntax error","service":"user-service","timestamp":"2024-12-03 10:24:23"}
+{"level":"info","message":"utente eliminato con successo","service":"user-service","timestamp":"2024-12-03 10:25:48"}

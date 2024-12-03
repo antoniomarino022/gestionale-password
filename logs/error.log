@@ -1,0 +1,15 @@
+{"level":"error","message":"Errore nel controller di cleanTableUser","service":"user-service","timestamp":"2024-12-02 17:41:19"}
+{"level":"error","message":"Errore nel controller di cleanTableUser","service":"user-service","timestamp":"2024-12-02 17:42:30"}
+{"level":"error","message":"Errore nel controller di cleanTableUser","service":"user-service","timestamp":"2024-12-02 17:43:28"}
+{"level":"error","message":"errore standard di js:SQLITE_ERROR: near \"TABLE\": syntax error","service":"user-service","timestamp":"2024-12-02 17:46:16"}
+{"level":"error","message":"Errore nel controller di cleanTableUser","service":"user-service","timestamp":"2024-12-02 17:46:51"}
+{"level":"error","message":"Errore standard di Js: SQLITE_RANGE: column index out of range","service":"user-service","timestamp":"2024-12-03 10:08:19"}
+{"level":"error","message":"Errore standard di Js: SQLITE_RANGE: column index out of range","service":"user-service","timestamp":"2024-12-03 10:09:46"}
+{"level":"error","message":"Errore standard di Js: SQLITE_RANGE: column index out of range","service":"user-service","timestamp":"2024-12-03 10:11:41"}
+{"level":"error","message":"Errore standard di Js: SQLITE_RANGE: column index out of range","service":"user-service","timestamp":"2024-12-03 10:11:42"}
+{"level":"error","message":"Errore standard di Js: SQLITE_RANGE: column index out of range","service":"user-service","timestamp":"2024-12-03 10:12:51"}
+{"level":"error","message":"Errore standard di Js: SQLITE_RANGE: column index out of range","service":"user-service","timestamp":"2024-12-03 10:13:51"}
+{"level":"error","message":"Errore standard di Js: SQLITE_RANGE: column index out of range","service":"user-service","timestamp":"2024-12-03 10:19:50"}
+{"level":"error","message":"Errore standard di Js: SQLITE_RANGE: column index out of range","service":"user-service","timestamp":"2024-12-03 10:20:32"}
+{"level":"error","message":"Errore standard di Js: SQLITE_RANGE: column index out of range","service":"user-service","timestamp":"2024-12-03 10:22:34"}
+{"level":"error","message":"Errore standard di Js: SQLITE_ERROR: near \"idUser\": syntax error","service":"user-service","timestamp":"2024-12-03 10:24:23"}

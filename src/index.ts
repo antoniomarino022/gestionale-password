@@ -1,7 +1,7 @@
 import express from 'express';
 import { config } from 'dotenv';
 import { getDb } from './db';
-import { routerUser } from './models/ModelUser';
+import { routerUser } from './router/RouterUser';
 
 
 config();
@@ -54,7 +54,8 @@ CREATE TABLE IF NOT EXISTS credenziali (
 
 initializeDatabase();
 
-// app.use("/user",);
+app.use("/user", routerUser);
+
 
 
 app.listen(port, () => {

@@ -15,6 +15,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const dotenv_1 = require("dotenv");
 const db_1 = require("./db");
+const RouterUser_1 = require("./router/RouterUser");
 (0, dotenv_1.config)();
 const port = process.env.PORT || '3000';
 const app = (0, express_1.default)();
@@ -57,7 +58,7 @@ CREATE TABLE IF NOT EXISTS credenziali (
     });
 }
 initializeDatabase();
-// app.use("/user",);
+app.use("/user", RouterUser_1.routerUser);
 app.listen(port, () => {
     console.log(`Server in ascolto su http://localhost:${port}`);
 });
