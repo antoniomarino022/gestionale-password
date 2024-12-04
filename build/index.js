@@ -16,6 +16,7 @@ const express_1 = __importDefault(require("express"));
 const dotenv_1 = require("dotenv");
 const db_1 = require("./db");
 const RouterUser_1 = require("./router/RouterUser");
+const RouterAuth_1 = require("./router/RouterAuth");
 (0, dotenv_1.config)();
 const port = process.env.PORT || '3000';
 const app = (0, express_1.default)();
@@ -40,17 +41,17 @@ CREATE TABLE IF NOT EXISTS auth (
   id TEXT PRIMARY KEY, 
   idUser TEXT NOT NULL, 
   token TEXT NOT NULL, 
-  FOREIGN KEY (idUser) REFERENCES user (idUser) ON DELETE CASCADE
+  FOREIGN KEY(idUser) REFERENCES user (idUser) ON DELETE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS credenziali (
   id TEXT PRIMARY KEY,
   idUser TEXT NOT NULL,
   username TEXT NOT NULL, 
-  email TEXT NOT NULL, -- Aggiunta una virgola tra email e password
+  email TEXT NOT NULL,
   password TEXT NOT NULL, 
   service TEXT NOT NULL, 
-  FOREIGN KEY (idUser) REFERENCES user (idUser) ON DELETE CASCADE
+  FOREIGN KEY(idUser) REFERENCES user (idUser) ON DELETE CASCADE
 );
 
 
@@ -59,6 +60,7 @@ CREATE TABLE IF NOT EXISTS credenziali (
 }
 initializeDatabase();
 app.use("/user", RouterUser_1.routerUser);
+app.use("/auth", RouterAuth_1.routerAuth);
 app.listen(port, () => {
     console.log(`Server in ascolto su http://localhost:${port}`);
 });

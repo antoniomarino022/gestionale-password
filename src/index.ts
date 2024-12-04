@@ -2,6 +2,7 @@ import express from 'express';
 import { config } from 'dotenv';
 import { getDb } from './db';
 import { routerUser } from './router/RouterUser';
+import { routerAuth } from './router/RouterAuth';
 
 
 config();
@@ -35,17 +36,17 @@ CREATE TABLE IF NOT EXISTS auth (
   id TEXT PRIMARY KEY, 
   idUser TEXT NOT NULL, 
   token TEXT NOT NULL, 
-  FOREIGN KEY (idUser) REFERENCES user (idUser) ON DELETE CASCADE
+  FOREIGN KEY(idUser) REFERENCES user (idUser) ON DELETE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS credenziali (
   id TEXT PRIMARY KEY,
   idUser TEXT NOT NULL,
   username TEXT NOT NULL, 
-  email TEXT NOT NULL, -- Aggiunta una virgola tra email e password
+  email TEXT NOT NULL,
   password TEXT NOT NULL, 
   service TEXT NOT NULL, 
-  FOREIGN KEY (idUser) REFERENCES user (idUser) ON DELETE CASCADE
+  FOREIGN KEY(idUser) REFERENCES user (idUser) ON DELETE CASCADE
 );
 
 
@@ -55,6 +56,7 @@ CREATE TABLE IF NOT EXISTS credenziali (
 initializeDatabase();
 
 app.use("/user", routerUser);
+app.use("/auth",routerAuth);
 
 
 

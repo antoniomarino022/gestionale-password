@@ -3,8 +3,6 @@ DELETE http://localhost:3000/user/clean
 Content-Type: application/json
 
 
-
-
 ### register
 POST http://localhost:3000/user/register
 Content-Type: application/json

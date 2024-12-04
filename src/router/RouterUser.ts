@@ -1,6 +1,5 @@
 import express from "express";
 import { UserController } from "../controllers/ControllerUser";
-import logger from '../middleware/logger';
 
 
 export const routerUser = express.Router();
