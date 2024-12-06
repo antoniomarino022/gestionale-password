@@ -6,6 +6,7 @@ import logger from "../middleware/logger";
 import * as bcrypt from "bcrypt";
 import { validateEmail, validatePassword } from "../middleware/validator";
 import { generateAccessToken } from "../middleware/authenticateToken";
+import { authenticateToken } from "../middleware/authenticateToken";
 
 
 let dbPromise: Promise<any>;

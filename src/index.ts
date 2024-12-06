@@ -3,6 +3,7 @@ import { config } from 'dotenv';
 import { getDb } from './db';
 import { routerUser } from './router/RouterUser';
 import { routerAuth } from './router/RouterAuth';
+import { routerCredenziali } from './router/RouterCredenziali';
 
 
 config();
@@ -57,6 +58,7 @@ initializeDatabase();
 
 app.use("/user", routerUser);
 app.use("/auth",routerAuth);
+app.use("credenziali",routerCredenziali);
 
 
 

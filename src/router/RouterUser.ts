@@ -2,6 +2,7 @@ import express from "express";
 import { UserController } from "../controllers/ControllerUser";
 
 
+
 export const routerUser = express.Router();
 const userController = new UserController();
 
@@ -14,7 +15,12 @@ routerUser.post("/register", (req, res, next) => {
     userController.registerUser(req, res, next);
 });
 
-routerUser.delete("/:idUser", (req, res, next) => {
+routerUser.put("/update/:idUser", (req, res, next) => {
+    userController.updateUser(req, res, next);
+});
+
+
+routerUser.delete("/:idUser",(req, res, next) => {
     userController.deleteUser(req, res, next);
 });
 

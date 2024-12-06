@@ -86,3 +86,72 @@
 {"level":"info","message":"user id mancante","service":"user-service","timestamp":"2024-12-04 11:02:51"}
 {"0":"a","1":"n","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"t","3":"o","4":"n","5":"i","6":"o","7":"0","8":"9","9":"3","level":"info","message":"tentativo di login ricevuto","service":"user-service","timestamp":"2024-12-04 11:04:24"}
 {"level":"info","message":"login effettuato antonio093@gmail.com ","service":"user-service","timestamp":"2024-12-04 11:04:25"}
+{"level":"info","message":"Verifica dell'utente esistente","service":"user-service","timestamp":"2024-12-05 21:09:22"}
+{"level":"info","message":"Utente già esistente","service":"user-service","timestamp":"2024-12-05 21:09:22"}
+{"level":"info","message":"tabella svuotata con successo","service":"user-service","timestamp":"2024-12-05 21:09:26"}
+{"level":"info","message":"Verifica dell'utente esistente","service":"user-service","timestamp":"2024-12-05 21:09:56"}
+{"level":"info","message":"Tentativo di registrazione dell'utente","service":"user-service","timestamp":"2024-12-05 21:09:56"}
+{"level":"info","message":"Utente registrato con successo","service":"user-service","timestamp":"2024-12-05 21:09:56"}
+{"0":"a","1":"n","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"t","3":"o","4":"n","5":"i","6":"o","7":"0","8":"9","9":"3","level":"info","message":"tentativo di login ricevuto","service":"user-service","timestamp":"2024-12-05 21:09:59"}
+{"level":"info","message":"login effettuato antonio093@gmail.com ","service":"user-service","timestamp":"2024-12-05 21:10:00"}
+{"0":"a","1":"n","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"t","3":"o","4":"n","5":"i","6":"o","7":"0","8":"9","9":"3","level":"info","message":"tentativo di login ricevuto","service":"user-service","timestamp":"2024-12-05 21:10:46"}
+{"level":"info","message":"login effettuato antonio093@gmail.com ","service":"user-service","timestamp":"2024-12-05 21:10:46"}
+{"level":"info","message":"tabella svuotata con successo","service":"user-service","timestamp":"2024-12-05 21:11:58"}
+{"0":"a","1":"n","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"t","3":"o","4":"n","5":"i","6":"o","7":"0","8":"9","9":"3","level":"info","message":"tentativo di login ricevuto","service":"user-service","timestamp":"2024-12-05 21:13:46"}
+{"level":"info","message":"login effettuato antonio093@gmail.com ","service":"user-service","timestamp":"2024-12-05 21:13:47"}
+{"level":"info","message":"Tentativo di logout ricevuto","service":"user-service","timestamp":"2024-12-05 21:15:15","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImNhYzM2OWViLWI0ODYtNDI1OS1iODcwLTgzYTlkNzUzNDEyMyIsImlhdCI6MTczMzQyOTYyNywiZXhwIjoxNzMzNDMxNDI3fQ.fHie7nmp2T5YGKIv-KduRzAjS0fbcHEexKRrYARy7Oc"}
+{"level":"info","message":"logout effettuato con successo","service":"user-service","timestamp":"2024-12-05 21:15:15"}
+{"level":"info","message":"utente non esistente","service":"user-service","timestamp":"2024-12-05 21:16:21"}
+{"level":"info","message":"utente eliminato con successo","service":"user-service","timestamp":"2024-12-05 21:16:54"}
+{"level":"info","message":"Verifica dell'utente esistente","service":"user-service","timestamp":"2024-12-05 21:21:30"}
+{"level":"warn","message":"Nessun header di autorizzazione presente","service":"user-service","timestamp":"2024-12-05 21:21:30"}
+{"level":"info","message":"Verifica dell'utente esistente","service":"user-service","timestamp":"2024-12-05 21:22:43"}
+{"level":"info","message":"Tentativo di registrazione dell'utente","service":"user-service","timestamp":"2024-12-05 21:22:43"}
+{"level":"info","message":"Utente registrato con successo","service":"user-service","timestamp":"2024-12-05 21:22:43"}
+{"0":"a","1":"n","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"t","3":"o","4":"n","5":"i","6":"o","7":"0","8":"9","9":"3","level":"info","message":"tentativo di login ricevuto","service":"user-service","timestamp":"2024-12-05 21:22:57"}
+{"level":"info","message":"login effettuato antonio093@gmail.com ","service":"user-service","timestamp":"2024-12-05 21:22:57"}
+{"level":"info","message":"utente non esistente","service":"user-service","timestamp":"2024-12-05 21:24:24"}
+{"level":"info","message":"tentavivo di accesso ricevuto","service":"user-service","timestamp":"2024-12-05 21:25:11","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZjMTNkMDc3LThkN2UtNDZiMy1iNDQ4LTRmMWI4NTM5NDM5YiIsImlhdCI6MTczMzQzMDE3NywiZXhwIjoxNzMzNDMxOTc3fQ.U2kNzPI7Wf1SDQBsPmTzL_fdTfXuXXWc5MF3H8xuW84"}
+{"level":"info","message":"utente eliminato con successo","service":"user-service","timestamp":"2024-12-05 21:25:11"}
+{"level":"info","message":"tabella non svuotata ","service":"user-service","timestamp":"2024-12-05 21:30:15"}
+{"level":"info","message":"Verifica dell'utente esistente","service":"user-service","timestamp":"2024-12-05 21:31:00"}
+{"level":"info","message":"Tentativo di registrazione dell'utente","service":"user-service","timestamp":"2024-12-05 21:31:00"}
+{"level":"info","message":"Utente registrato con successo","service":"user-service","timestamp":"2024-12-05 21:31:00"}
+{"level":"info","message":"tabella svuotata con successo","service":"user-service","timestamp":"2024-12-05 21:31:07"}
+{"0":"a","1":"n","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"t","3":"o","4":"n","5":"i","6":"o","7":"0","8":"9","9":"3","level":"info","message":"tentativo di login ricevuto","service":"user-service","timestamp":"2024-12-05 21:31:46"}
+{"level":"info","message":"login effettuato antonio093@gmail.com ","service":"user-service","timestamp":"2024-12-05 21:31:46"}
+{"level":"info","message":"tentavivo di accesso ricevuto","service":"user-service","timestamp":"2024-12-05 21:34:48","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjM0N2FhNWIxLTU2YWQtNDQ5ZC05OTM3LWFiNGMwMTJlMjg5NCIsImlhdCI6MTczMzQzMDcwNiwiZXhwIjoxNzMzNDMyNTA2fQ.7YGkN4wosqj7SLgwDCz-XATlTUJUZMd-_R_HKp5pfhA"}
+{"level":"info","message":"utente eliminato con successo","service":"user-service","timestamp":"2024-12-05 21:34:48"}
+{"level":"info","message":"tabella svuotata con successo","service":"user-service","timestamp":"2024-12-06 10:57:10"}
+{"level":"info","message":"Verifica dell'utente esistente","service":"user-service","timestamp":"2024-12-06 10:58:20"}
+{"level":"info","message":"Tentativo di registrazione dell'utente","service":"user-service","timestamp":"2024-12-06 10:58:20"}
+{"level":"info","message":"Utente registrato con successo","service":"user-service","timestamp":"2024-12-06 10:58:21"}
+{"0":"a","1":"n","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"t","3":"o","4":"n","5":"i","6":"o","7":"0","8":"9","9":"3","level":"info","message":"tentativo di login ricevuto","service":"user-service","timestamp":"2024-12-06 10:58:30"}
+{"level":"info","message":"login effettuato antonio093@gmail.com ","service":"user-service","timestamp":"2024-12-06 10:58:31"}
+{"level":"info","message":"Utente non esistente","service":"user-service","timestamp":"2024-12-06 11:00:11"}
+{"level":"info","message":"Utente non esistente","service":"user-service","timestamp":"2024-12-06 11:17:39"}
+{"level":"info","message":"Utente non trovato","service":"user-service","timestamp":"2024-12-06 11:22:24"}
+{"level":"info","message":"Utente non trovato","service":"user-service","timestamp":"2024-12-06 11:23:16"}
+{"level":"info","message":"Utente non trovato","service":"user-service","timestamp":"2024-12-06 11:26:18"}
+{"level":"info","message":"Utente non trovato","service":"user-service","timestamp":"2024-12-06 11:27:08"}
+{"level":"info","message":"Utente non trovato","service":"user-service","timestamp":"2024-12-06 11:27:11"}
+{"level":"info","message":"Utente non trovato","service":"user-service","timestamp":"2024-12-06 11:27:11"}
+{"level":"info","message":"Utente non trovato","service":"user-service","timestamp":"2024-12-06 11:27:11"}
+{"level":"info","message":"Utente non trovato","service":"user-service","timestamp":"2024-12-06 11:27:12"}
+{"level":"info","message":"Utente non trovato","service":"user-service","timestamp":"2024-12-06 11:29:31"}
+{"level":"info","message":"Utente non trovato","service":"user-service","timestamp":"2024-12-06 11:30:33"}
+{"level":"info","message":"Tentativo di logout ricevuto","service":"user-service","timestamp":"2024-12-06 11:31:07","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImNhYzM2OWViLWI0ODYtNDI1OS1iODcwLTgzYTlkNzUzNDEyMyIsImlhdCI6MTczMzQyOTYyNywiZXhwIjoxNzMzNDMxNDI3fQ.fHie7nmp2T5YGKIv-KduRzAjS0fbcHEexKRrYARy7Oc"}
+{"level":"info","message":"logout non effettuato","service":"user-service","timestamp":"2024-12-06 11:31:07"}
+{"0":"a","1":"n","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"t","3":"o","4":"n","5":"i","6":"o","7":"0","8":"9","9":"3","level":"info","message":"tentativo di login ricevuto","service":"user-service","timestamp":"2024-12-06 11:32:14"}
+{"level":"info","message":"login effettuato antonio093@gmail.com ","service":"user-service","timestamp":"2024-12-06 11:32:14"}
+{"level":"info","message":"tabella svuotata con successo","service":"user-service","timestamp":"2024-12-06 11:33:01"}
+{"0":"a","1":"n","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"t","3":"o","4":"n","5":"i","6":"o","7":"0","8":"9","9":"3","level":"info","message":"tentativo di login ricevuto","service":"user-service","timestamp":"2024-12-06 11:33:31"}
+{"level":"info","message":"login effettuato antonio093@gmail.com ","service":"user-service","timestamp":"2024-12-06 11:33:31"}
+{"level":"info","message":"Utente non trovato","service":"user-service","timestamp":"2024-12-06 11:34:59"}
+{"level":"info","message":"Utente non trovato","service":"user-service","timestamp":"2024-12-06 11:36:07"}
+{"level":"info","message":"Utente non trovato","service":"user-service","timestamp":"2024-12-06 11:40:03"}
+{"level":"info","message":"Utente non trovato","service":"user-service","timestamp":"2024-12-06 11:40:47"}
+{"level":"warn","message":"Utente non trovato","service":"user-service","timestamp":"2024-12-06 11:42:24"}
+{"level":"error","message":"Nessuna modifica applicata all'utente","service":"user-service","timestamp":"2024-12-06 11:43:12"}
+{"level":"error","message":"Nessuna modifica applicata all'utente","service":"user-service","timestamp":"2024-12-06 11:43:15"}
+{"level":"info","message":"Utente modificato con successo","service":"user-service","timestamp":"2024-12-06 11:43:58"}

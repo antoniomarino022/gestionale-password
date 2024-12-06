@@ -57,6 +57,8 @@ export class ModelUser {
     }
   }
 
+
+
   // registrazione utente
   async registerUser(req: Request, res: Response, next: NextFunction) {
     try {
@@ -127,6 +129,95 @@ export class ModelUser {
     }
   }
 
+
+
+  
+// update user
+async updateUser(req: Request, res: Response, next: NextFunction){
+  
+  try {
+    const db = await getDb();
+
+    const { idUser } = req.params;
+
+    if (!idUser) {
+      logger.info("id mancante");
+      return res.status(400).json({
+        message: "id mancante",
+      });
+    }
+    
+    const { email, password }: userBody = req.body;
+
+    if (!email || !password) {
+      logger.info("Email o password mancanti");
+      return res
+        .status(400)
+        .json({ message: "Email e password sono obbligatorie" });
+    }
+
+    if (!validateEmail(email)) {
+      logger.info("Email non valida");
+      return res.status(400).json({ message: "Email non valida" });
+    }
+
+    if (!validatePassword(password)) {
+      logger.info("Password non valida");
+      return res.status(400).json({ message: "Password non valida" });
+    }
+
+    const authHeader = req.headers["authorization"];
+    if (!authHeader) {
+      logger.warn("Nessun header di autorizzazione presente");
+      return res.status(401).json({ message: "Autorizzazione mancante" });
+    }
+    const token = authHeader && authHeader.split(" ")[1];
+
+    if (token == null)
+      return res.sendStatus(401).json({ message: "Token NON VALIDO" });
+
+    const verifyAuth = await db.get("SELECT token FROM auth");
+
+    if (!verifyAuth) {
+      logger.info("l'utente non è autorizzato");
+    }
+
+
+    const user = await db.get('SELECT * FROM user WHERE idUser = ?', [idUser]);
+
+    if (!user) {
+      logger.warn('Utente non trovato');
+      return res.status(404).json({
+        message:"utente non trovato"
+      }); 
+    }
+
+    const salt = await bcrypt.genSalt(12);
+    const passwordHash = await bcrypt.hash(password, salt);
+
+    const result = await db.run('UPDATE user SET email = ?, password = ?', [email, passwordHash]);
+
+    if (result.changes > 0) {
+      logger.info(`Utente modificato con successo`);
+      return res.status(200).json({ message: "Utente modificato con successo" });
+    } else {
+      logger.error("Nessuna modifica applicata all'utente");
+      return res.status(304).json({ message: "Nessuna modifica applicata all'utente" }); // Usa 304 per "Not Modified"
+    }
+  } catch (err) {
+    if (err instanceof Error) {
+      logger.error(`Errore standard di Js: ${err.message}`);
+      return res
+        .status(500)
+        .json({ message: "Errore standard di Js:", errore: err.message });
+    } else {
+      logger.error("Errore sconosciuto");
+      return res.status(500).json({ message: "Errore sconosciuto" });
+    }
+  }
+}
+
+
   // Delete user
   async deleteUser(req: Request, res: Response, next: NextFunction) {
     try {
@@ -152,6 +243,26 @@ export class ModelUser {
           message: "utente non esistente",
         });
       }
+
+      
+      const authHeader = req.headers["authorization"];
+      if (!authHeader) {
+        logger.warn("Nessun header di autorizzazione presente");
+        return res.status(401).json({ message: "Autorizzazione mancante" });
+      }
+      const token = authHeader && authHeader.split(" ")[1];
+
+      if (token == null)
+        return res.sendStatus(401).json({ message: "Token NON VALIDO" });
+
+      const verifyAuth = await db.get("SELECT token FROM auth");
+
+      if (!verifyAuth) {
+        logger.info("l'utente non è autorizzato");
+      }
+
+      logger.info('tentavivo di autorizzazione ricevuto', { token });
+
 
       const result = await db.run("DELETE FROM user WHERE idUser = ?", [
         idUser,

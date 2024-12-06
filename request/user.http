@@ -13,6 +13,18 @@ Content-Type: application/json
 }
 
 
-### delete user
-DELETE http://localhost:3000/user/5b42ac50-f409-4515-b7ea-1012d80eeedb
+### update
+PUT http://localhost:3000/user/update/44891410-0856-4e0c-b1bb-37c7d5a22fd5
 Content-Type: application/json
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQ0ODkxNDEwLTA4NTYtNGUwYy1iMWJiLTM3YzdkNWEyMmZkNSIsImlhdCI6MTczMzQ4MTIxMSwiZXhwIjoxNzMzNDgzMDExfQ.M5uVG4gZLH46vkwUMh1TnqcuoPS_WoRWPCXm-KDVkas
+
+{
+    "email":"modificato@gmail.com",
+    "password":"H6@kjd768379mdn4t"
+}
+
+
+### delete user
+DELETE http://localhost:3000/user/347aa5b1-56ad-449d-9937-ab4c012e2894
+Content-Type: application/json
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjM0N2FhNWIxLTU2YWQtNDQ5ZC05OTM3LWFiNGMwMTJlMjg5NCIsImlhdCI6MTczMzQzMDcwNiwiZXhwIjoxNzMzNDMyNTA2fQ.7YGkN4wosqj7SLgwDCz-XATlTUJUZMd-_R_HKp5pfhA

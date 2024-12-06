@@ -15,6 +15,6 @@ routerAuth.post("/login", (req, res,next)=>{
 })
 
 
-routerAuth.delete("/logout", (req, res,next)=>{
+routerAuth.delete("/logout",(req, res,next)=>{
     controllerAuth.logout(req, res,next);
 })

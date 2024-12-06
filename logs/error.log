@@ -41,3 +41,21 @@
 {"level":"error","message":"Errore JavaScript: SQLITE_CONSTRAINT: NOT NULL constraint failed: auth.idUser","service":"user-service","timestamp":"2024-12-04 10:56:04"}
 {"level":"error","message":"Errore nel controller di login","service":"user-service","timestamp":"2024-12-04 11:02:51"}
 {"level":"error","message":"Errore nel controller di login","service":"user-service","timestamp":"2024-12-04 11:04:25"}
+{"level":"error","message":"Errore nel controller di cleanTableUser","service":"user-service","timestamp":"2024-12-05 21:09:26"}
+{"level":"error","message":"Errore nel controller di login","service":"user-service","timestamp":"2024-12-05 21:10:00"}
+{"level":"error","message":"Errore nel controller di login","service":"user-service","timestamp":"2024-12-05 21:10:46"}
+{"level":"error","message":"Errore nel controller di login","service":"user-service","timestamp":"2024-12-05 21:11:58"}
+{"level":"error","message":"Errore nel controller di login","service":"user-service","timestamp":"2024-12-05 21:13:47"}
+{"level":"error","message":"Errore nel controller di logout","service":"user-service","timestamp":"2024-12-05 21:15:15"}
+{"level":"error","message":"Errore nel controller di login","service":"user-service","timestamp":"2024-12-05 21:22:57"}
+{"level":"error","message":"Errore nel controller di cleanTableUser","service":"user-service","timestamp":"2024-12-05 21:30:15"}
+{"level":"error","message":"Errore nel controller di login","service":"user-service","timestamp":"2024-12-05 21:31:07"}
+{"level":"error","message":"Errore nel controller di login","service":"user-service","timestamp":"2024-12-05 21:31:46"}
+{"level":"error","message":"Errore nel controller di login","service":"user-service","timestamp":"2024-12-06 10:57:10"}
+{"level":"error","message":"Errore nel controller di login","service":"user-service","timestamp":"2024-12-06 10:58:31"}
+{"level":"error","message":"Errore nel controller di logout","service":"user-service","timestamp":"2024-12-06 11:31:07"}
+{"level":"error","message":"Errore nel controller di login","service":"user-service","timestamp":"2024-12-06 11:32:14"}
+{"level":"error","message":"Errore nel controller di login","service":"user-service","timestamp":"2024-12-06 11:33:01"}
+{"level":"error","message":"Errore nel controller di login","service":"user-service","timestamp":"2024-12-06 11:33:31"}
+{"level":"error","message":"Nessuna modifica applicata all'utente","service":"user-service","timestamp":"2024-12-06 11:43:12"}
+{"level":"error","message":"Nessuna modifica applicata all'utente","service":"user-service","timestamp":"2024-12-06 11:43:15"}
