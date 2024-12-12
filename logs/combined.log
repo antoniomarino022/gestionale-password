@@ -155,3 +155,169 @@
 {"level":"error","message":"Nessuna modifica applicata all'utente","service":"user-service","timestamp":"2024-12-06 11:43:12"}
 {"level":"error","message":"Nessuna modifica applicata all'utente","service":"user-service","timestamp":"2024-12-06 11:43:15"}
 {"level":"info","message":"Utente modificato con successo","service":"user-service","timestamp":"2024-12-06 11:43:58"}
+{"level":"info","message":"tentavivo di autorizzazione ricevuto","service":"user-service","timestamp":"2024-12-06 11:56:38","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQ0ODkxNDEwLTA4NTYtNGUwYy1iMWJiLTM3YzdkNWEyMmZkNSIsImlhdCI6MTczMzQ4MTIxMSwiZXhwIjoxNzMzNDgzMDExfQ.M5uVG4gZLH46vkwUMh1TnqcuoPS_WoRWPCXm-KDVkas"}
+{"level":"error","message":"Unexpected error: SQLITE_CONSTRAINT: NOT NULL constraint failed: credenziali.idUser","service":"user-service","timestamp":"2024-12-06 11:56:39"}
+{"level":"info","message":"Utente modificato con successo","service":"user-service","timestamp":"2024-12-06 11:59:04"}
+{"level":"info","message":"tentavivo di autorizzazione ricevuto","service":"user-service","timestamp":"2024-12-06 11:59:13","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQ0ODkxNDEwLTA4NTYtNGUwYy1iMWJiLTM3YzdkNWEyMmZkNSIsImlhdCI6MTczMzQ4MTIxMSwiZXhwIjoxNzMzNDgzMDExfQ.M5uVG4gZLH46vkwUMh1TnqcuoPS_WoRWPCXm-KDVkas"}
+{"level":"error","message":"Unexpected error: SQLITE_CONSTRAINT: NOT NULL constraint failed: credenziali.idUser","service":"user-service","timestamp":"2024-12-06 11:59:13"}
+{"level":"info","message":"tentavivo di autorizzazione ricevuto","service":"user-service","timestamp":"2024-12-06 12:02:37","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQ0ODkxNDEwLTA4NTYtNGUwYy1iMWJiLTM3YzdkNWEyMmZkNSIsImlhdCI6MTczMzQ4MTIxMSwiZXhwIjoxNzMzNDgzMDExfQ.M5uVG4gZLH46vkwUMh1TnqcuoPS_WoRWPCXm-KDVkas"}
+{"level":"error","message":"Unexpected error: SQLITE_CONSTRAINT: NOT NULL constraint failed: credenziali.idUser","service":"user-service","timestamp":"2024-12-06 12:02:37"}
+{"level":"info","message":"tentavivo di autorizzazione ricevuto","service":"user-service","timestamp":"2024-12-06 12:05:13","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQ0ODkxNDEwLTA4NTYtNGUwYy1iMWJiLTM3YzdkNWEyMmZkNSIsImlhdCI6MTczMzQ4MTIxMSwiZXhwIjoxNzMzNDgzMDExfQ.M5uVG4gZLH46vkwUMh1TnqcuoPS_WoRWPCXm-KDVkas"}
+{"level":"error","message":"Unexpected error: SQLITE_CONSTRAINT: NOT NULL constraint failed: credenziali.idUser","service":"user-service","timestamp":"2024-12-06 12:05:13"}
+{"level":"info","message":"tentavivo di autorizzazione ricevuto","service":"user-service","timestamp":"2024-12-06 12:11:36","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQ0ODkxNDEwLTA4NTYtNGUwYy1iMWJiLTM3YzdkNWEyMmZkNSIsImlhdCI6MTczMzQ4MTIxMSwiZXhwIjoxNzMzNDgzMDExfQ.M5uVG4gZLH46vkwUMh1TnqcuoPS_WoRWPCXm-KDVkas"}
+{"level":"error","message":"Unexpected error: SQLITE_CONSTRAINT: NOT NULL constraint failed: credenziali.idUser","service":"user-service","timestamp":"2024-12-06 12:11:37"}
+{"level":"info","message":"tentavivo di autorizzazione ricevuto","service":"user-service","timestamp":"2024-12-08 23:41:50","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQ0ODkxNDEwLTA4NTYtNGUwYy1iMWJiLTM3YzdkNWEyMmZkNSIsImlhdCI6MTczMzQ4MTIxMSwiZXhwIjoxNzMzNDgzMDExfQ.M5uVG4gZLH46vkwUMh1TnqcuoPS_WoRWPCXm-KDVkas"}
+{"level":"error","message":"Unexpected error: SQLITE_CONSTRAINT: NOT NULL constraint failed: credenziali.idUser","service":"user-service","timestamp":"2024-12-08 23:41:50"}
+{"level":"info","message":"tentavivo di autorizzazione ricevuto","service":"user-service","timestamp":"2024-12-08 23:47:25","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQ0ODkxNDEwLTA4NTYtNGUwYy1iMWJiLTM3YzdkNWEyMmZkNSIsImlhdCI6MTczMzQ4MTIxMSwiZXhwIjoxNzMzNDgzMDExfQ.M5uVG4gZLH46vkwUMh1TnqcuoPS_WoRWPCXm-KDVkas"}
+{"level":"error","message":"Unexpected error: SQLITE_CONSTRAINT: NOT NULL constraint failed: credenziali.idUser","service":"user-service","timestamp":"2024-12-08 23:47:26"}
+{"level":"info","message":"Database connection established","service":"user-service","timestamp":"2024-12-08 23:50:31"}
+{"error":{"code":"SQLITE_CONSTRAINT","errno":19},"level":"error","message":"Error inserting credentials","service":"user-service","timestamp":"2024-12-08 23:50:31"}
+{"level":"info","message":"tentavivo di autorizzazione ricevuto","service":"user-service","timestamp":"2024-12-08 23:55:36","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQ0ODkxNDEwLTA4NTYtNGUwYy1iMWJiLTM3YzdkNWEyMmZkNSIsImlhdCI6MTczMzQ4MTIxMSwiZXhwIjoxNzMzNDgzMDExfQ.M5uVG4gZLH46vkwUMh1TnqcuoPS_WoRWPCXm-KDVkas"}
+{"level":"error","message":"Unexpected error: SQLITE_CONSTRAINT: NOT NULL constraint failed: credenziali.idUser","service":"user-service","timestamp":"2024-12-08 23:55:36"}
+{"level":"info","message":"tentavivo di autorizzazione ricevuto","service":"user-service","timestamp":"2024-12-08 23:58:37","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQ0ODkxNDEwLTA4NTYtNGUwYy1iMWJiLTM3YzdkNWEyMmZkNSIsImlhdCI6MTczMzQ4MTIxMSwiZXhwIjoxNzMzNDgzMDExfQ.M5uVG4gZLH46vkwUMh1TnqcuoPS_WoRWPCXm-KDVkas"}
+{"level":"info","message":"credenziali aggiunte con successo","service":"user-service","timestamp":"2024-12-08 23:58:38"}
+{"level":"info","message":"tentavivo di autorizzazione ricevuto","service":"user-service","timestamp":"2024-12-08 23:59:12","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQ0ODkxNDEwLTA4NTYtNGUwYy1iMWJiLTM3YzdkNWEyMmZkNSIsImlhdCI6MTczMzQ4MTIxMSwiZXhwIjoxNzMzNDgzMDExfQ.M5uVG4gZLH46vkwUMh1TnqcuoPS_WoRWPCXm-KDVkas"}
+{"level":"info","message":"credenziali aggiunte con successo","service":"user-service","timestamp":"2024-12-08 23:59:12"}
+{"level":"info","message":"tentavivo di autorizzazione ricevuto","service":"user-service","timestamp":"2024-12-09 00:00:26","token":"enkyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQ0ODkxNDEwLTA4NTYtNGUwYy1iMWJiLTM3YzdkNWEyMmZkNSIsImlhdCI6MTczMzQ4MTIxMSwiZXhwIjoxNzMzNDgzMDExfQ.M5uVG4gZLH46vkwUMh1TnqcuoPS_WoRWPCXm-KDVkas"}
+{"level":"info","message":"credenziali aggiunte con successo","service":"user-service","timestamp":"2024-12-09 00:00:26"}
+{"level":"info","message":"tentavivo di autorizzazione ricevuto","service":"user-service","timestamp":"2024-12-09 00:00:36","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQ0ODkxNDEwLTA4NTYtNGUwYy1iMWJiLTM3YzdkNWEyMmZkNSIsImlhdCI6MTczMzQ4MTIxMSwiZXhwIjoxNzMzNDgzMDExfQ.M5uVG4gZLH46vkwUMh1TnqcuoPS_WoRWPCXm-KDVkas"}
+{"level":"info","message":"credenziali aggiunte con successo","service":"user-service","timestamp":"2024-12-09 00:00:36"}
+{"level":"info","message":"tentavivo di autorizzazione ricevuto","service":"user-service","timestamp":"2024-12-09 00:00:51","token":"esyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQ0ODkxNDEwLTA4NTYtNGUwYy1iMWJiLTM3YzdkNWEyMmZkNSIsImlhdCI6MTczMzQ4MTIxMSwiZXhwIjoxNzMzNDgzMDExfQ.M5uVG4gZLH46vkwUMh1TnqcuoPS_WoRWPCXm-KDVkas"}
+{"level":"info","message":"credenziali aggiunte con successo","service":"user-service","timestamp":"2024-12-09 00:00:51"}
+{"level":"info","message":"tabella svuotata con successo","service":"user-service","timestamp":"2024-12-09 10:21:02"}
+{"level":"info","message":"tabella svuotata con successo","service":"user-service","timestamp":"2024-12-09 10:22:21"}
+{"level":"info","message":"tabella svuotata con successo","service":"user-service","timestamp":"2024-12-09 10:22:44"}
+{"level":"info","message":"Verifica dell'utente esistente","service":"user-service","timestamp":"2024-12-09 10:23:31"}
+{"level":"info","message":"Tentativo di registrazione dell'utente","service":"user-service","timestamp":"2024-12-09 10:23:31"}
+{"level":"info","message":"Utente registrato con successo","service":"user-service","timestamp":"2024-12-09 10:23:31"}
+{"0":"a","1":"n","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"t","3":"o","4":"n","5":"i","6":"o","7":"0","8":"9","9":"3","level":"info","message":"tentativo di login ricevuto","service":"user-service","timestamp":"2024-12-09 10:23:38"}
+{"level":"info","message":"login effettuato antonio093@gmail.com ","service":"user-service","timestamp":"2024-12-09 10:23:38"}
+{"level":"warn","message":"Utente non trovato","service":"user-service","timestamp":"2024-12-09 10:24:06"}
+{"level":"warn","message":"Utente non trovato","service":"user-service","timestamp":"2024-12-09 10:24:07"}
+{"level":"info","message":"tentavivo di autorizzazione ricevuto","service":"user-service","timestamp":"2024-12-09 10:24:35","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQ0ODkxNDEwLTA4NTYtNGUwYy1iMWJiLTM3YzdkNWEyMmZkNSIsImlhdCI6MTczMzQ4MTIxMSwiZXhwIjoxNzMzNDgzMDExfQ.M5uVG4gZLH46vkwUMh1TnqcuoPS_WoRWPCXm-KDVkas"}
+{"level":"info","message":"credenziali aggiunte con successo","service":"user-service","timestamp":"2024-12-09 10:24:36"}
+{"level":"info","message":"tentavivo di autorizzazione ricevuto","service":"user-service","timestamp":"2024-12-09 10:27:08","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQ0ODkxNDEwLTA4NTYtNGUwYy1iMWJiLTM3YzdkNWEyMmZkNSIsImlhdCI6MTczMzQ4MTIxMSwiZXhwIjoxNzMzNDgzMDExfQ.M5uVG4gZLH46vkwUMh1TnqcuoPS_WoRWPCXm-KDVkas"}
+{"level":"info","message":"credenziali aggiunte con successo","service":"user-service","timestamp":"2024-12-09 10:27:08"}
+{"level":"info","message":"Tentativo di logout ricevuto","service":"user-service","timestamp":"2024-12-09 10:27:21","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQ0ODkxNDEwLTA4NTYtNGUwYy1iMWJiLTM3YzdkNWEyMmZkNSIsImlhdCI6MTczMzQ3OTExMSwiZXhwIjoxNzMzNDgwOTExfQ.Bfx0T51mJoPYATCpiPiKr3lN-St8AR9HVEz9y55OQI0"}
+{"level":"info","message":"logout non effettuato","service":"user-service","timestamp":"2024-12-09 10:27:21"}
+{"level":"info","message":"Tentativo di logout ricevuto","service":"user-service","timestamp":"2024-12-09 10:28:11","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjIwYzRiYTkzLTRmYmQtNGFjMS05OTRhLWJhYjdiNDJkZWJjYSIsImlhdCI6MTczMzczNjIxOCwiZXhwIjoxNzMzNzM4MDE4fQ.ReSO_KX-rxqiDa1l-lNGu9U0taidJAoNGJJyX2H-dXc"}
+{"level":"info","message":"logout effettuato con successo","service":"user-service","timestamp":"2024-12-09 10:28:11"}
+{"0":"a","1":"n","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"t","3":"o","4":"n","5":"i","6":"o","7":"0","8":"9","9":"3","level":"info","message":"tentativo di login ricevuto","service":"user-service","timestamp":"2024-12-09 10:33:14"}
+{"level":"info","message":"login effettuato antonio093@gmail.com ","service":"user-service","timestamp":"2024-12-09 10:33:14"}
+{"level":"info","message":"tentavivo di autorizzazione ricevuto","service":"user-service","timestamp":"2024-12-09 10:38:15","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQ0ODkxNDEwLTA4NTYtNGUwYy1iMWJiLTM3YzdkNWEyMmZkNSIsImlhdCI6MTczMzQ4MTIxMSwiZXhwIjoxNzMzNDgzMDExfQ.M5uVG4gZLH46vkwUMh1TnqcuoPS_WoRWPCXm-KDVkas"}
+{"level":"info","message":"credenziali aggiunte con successo","service":"user-service","timestamp":"2024-12-09 10:38:15"}
+{"level":"info","message":"tentavivo di autorizzazione ricevuto","service":"user-service","timestamp":"2024-12-09 10:54:07","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQ0ODkxNDEwLTA4NTYtNGUwYy1iMWJiLTM3YzdkNWEyMmZkNSIsImlhdCI6MTczMzQ4MTIxMSwiZXhwIjoxNzMzNDgzMDExfQ.M5uVG4gZLH46vkwUMh1TnqcuoPS_WoRWPCXm-KDVkas"}
+{"level":"info","message":"credenziali aggiunte con successo","service":"user-service","timestamp":"2024-12-09 10:54:08"}
+{"level":"info","message":"tentavivo di autorizzazione ricevuto","service":"user-service","timestamp":"2024-12-09 10:55:04","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjIwYzRiYTkzLTRmYmQtNGFjMS05OTRhLWJhYjdiNDJkZWJjYSIsImlhdCI6MTczMzczNjc5NCwiZXhwIjoxNzMzNzM4NTk0fQ.q2xMhRx5LBdGXyEUPswYxlbMVaANlg1_7uhRzNEpWS0"}
+{"level":"info","message":"credenziali aggiunte con successo","service":"user-service","timestamp":"2024-12-09 10:55:04"}
+{"level":"info","message":"tabella svuotata con successo","service":"user-service","timestamp":"2024-12-09 21:06:30"}
+{"level":"info","message":"tentavivo di autorizzazione ricevuto","service":"user-service","timestamp":"2024-12-09 21:07:06","token":"efyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjIwYzRiYTkzLTRmYmQtNGFjMS05OTRhLWJhYjdiNDJkZWJjYSIsImlhdCI6MTczMzczNjc5NCwiZXhwIjoxNzMzNzM4NTk0fQ.q2xMhRx5LBdGXyEUPswYxlbMVaANlg1_7uhRzNEpWS0"}
+{"level":"info","message":"credenziali aggiunte con successo","service":"user-service","timestamp":"2024-12-09 21:07:06"}
+{"level":"info","message":"tentavivo di autorizzazione ricevuto","service":"user-service","timestamp":"2024-12-09 21:11:36","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjIwYzRiYTkzLTRmYmQtNGFjMS05OTRhLWJhYjdiNDJkZWJjYSIsImlhdCI6MTczMzczNjc5NCwiZXhwIjoxNzMzNzM4NTk0fQ.q2xMhRx5LBdGXyEUPswYxlbMVaANlg1_7uhRzNEpWS0"}
+{"level":"info","message":"credenziali aggiunte con successo","service":"user-service","timestamp":"2024-12-09 21:11:37"}
+{"level":"info","message":"tentavivo di autorizzazione ricevuto","service":"user-service","timestamp":"2024-12-09 21:12:40","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjIwYzRiYTkzLTRmYmQtNGFjMS05OTRhLWJhYjdiNDJkZWJjYSIsImlhdCI6MTczMzczNjc5NCwiZXhwIjoxNzMzNzM4NTk0fQ.q2xMhRx5LBdGXyEUPswYxlbMVaANlg1_7uhRzNEpWS0"}
+{"level":"info","message":"credenziali aggiunte con successo","service":"user-service","timestamp":"2024-12-09 21:12:41"}
+{"level":"info","message":"tentavivo di autorizzazione ricevuto","service":"user-service","timestamp":"2024-12-09 21:13:20","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjIwYzRiYTkzLTRmYmQtNGFjMS05OTRhLWJhYjdiNDJkZWJjYSIsImlhdCI6MTczMzczNjc5NCwiZXhwIjoxNzMzNzM4NTk0fQ.q2xMhRx5LBdGXyEUPswYxlbMVaANlg1_7uhRzNEpWS0"}
+{"level":"info","message":"credenziali aggiunte con successo","service":"user-service","timestamp":"2024-12-09 21:13:21"}
+{"level":"info","message":"tabella svuotata con successo","service":"user-service","timestamp":"2024-12-09 21:14:02"}
+{"level":"info","message":"tentavivo di autorizzazione ricevuto","service":"user-service","timestamp":"2024-12-09 21:14:12","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjIwYzRiYTkzLTRmYmQtNGFjMS05OTRhLWJhYjdiNDJkZWJjYSIsImlhdCI6MTczMzczNjc5NCwiZXhwIjoxNzMzNzM4NTk0fQ.q2xMhRx5LBdGXyEUPswYxlbMVaANlg1_7uhRzNEpWS0"}
+{"level":"info","message":"credenziali aggiunte con successo","service":"user-service","timestamp":"2024-12-09 21:14:12"}
+{"level":"warn","message":"Token non valido","service":"user-service","timestamp":"2024-12-09 21:17:51"}
+{"level":"info","message":"tabella svuotata con successo","service":"user-service","timestamp":"2024-12-09 21:18:27"}
+{"level":"info","message":"tabella svuotata con successo","service":"user-service","timestamp":"2024-12-09 21:18:31"}
+{"level":"info","message":"tabella non svuotata ","service":"user-service","timestamp":"2024-12-09 21:18:42"}
+{"level":"info","message":"Verifica dell'utente esistente","service":"user-service","timestamp":"2024-12-09 21:18:57"}
+{"level":"info","message":"Tentativo di registrazione dell'utente","service":"user-service","timestamp":"2024-12-09 21:18:57"}
+{"level":"info","message":"Utente registrato con successo","service":"user-service","timestamp":"2024-12-09 21:18:58"}
+{"0":"a","1":"n","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"t","3":"o","4":"n","5":"i","6":"o","7":"0","8":"9","9":"3","level":"info","message":"tentativo di login ricevuto","service":"user-service","timestamp":"2024-12-09 21:19:01"}
+{"level":"info","message":"login effettuato antonio093@gmail.com ","service":"user-service","timestamp":"2024-12-09 21:19:02"}
+{"level":"info","message":"Tentativo di autorizzazione ricevuto","service":"user-service","timestamp":"2024-12-09 21:19:35","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRkNDRiOGY0LWQxNzUtNGMxOS1hNjNlLWJkYzQ1Y2Y5ZTQ2OSIsImlhdCI6MTczMzc3NTU0MiwiZXhwIjoxNzMzNzc3MzQyfQ.vUEa7fU-MD7mXjpZ7ZBY8sGh1eByj8iBTh7rnQ2WsKc"}
+{"level":"warn","message":"Utente non trovato","service":"user-service","timestamp":"2024-12-09 21:19:35"}
+{"level":"info","message":"Tentativo di autorizzazione ricevuto","service":"user-service","timestamp":"2024-12-09 21:20:01","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRkNDRiOGY0LWQxNzUtNGMxOS1hNjNlLWJkYzQ1Y2Y5ZTQ2OSIsImlhdCI6MTczMzc3NTU0MiwiZXhwIjoxNzMzNzc3MzQyfQ.vUEa7fU-MD7mXjpZ7ZBY8sGh1eByj8iBTh7rnQ2WsKc"}
+{"level":"info","message":"username non inserito","service":"user-service","timestamp":"2024-12-09 21:20:01"}
+{"level":"info","message":"Tentativo di autorizzazione ricevuto","service":"user-service","timestamp":"2024-12-09 21:20:34","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRkNDRiOGY0LWQxNzUtNGMxOS1hNjNlLWJkYzQ1Y2Y5ZTQ2OSIsImlhdCI6MTczMzc3NTU0MiwiZXhwIjoxNzMzNzc3MzQyfQ.vUEa7fU-MD7mXjpZ7ZBY8sGh1eByj8iBTh7rnQ2WsKc"}
+{"level":"info","message":"credenziali aggiunte con successo","service":"user-service","timestamp":"2024-12-09 21:20:34"}
+{"level":"info","message":"Verifica dell'utente esistente","service":"user-service","timestamp":"2024-12-09 21:21:08"}
+{"level":"info","message":"Tentativo di registrazione dell'utente","service":"user-service","timestamp":"2024-12-09 21:21:08"}
+{"level":"info","message":"Utente registrato con successo","service":"user-service","timestamp":"2024-12-09 21:21:09"}
+{"0":"a","1":"n","10":"a","11":"i","12":"l","13":".","14":"c","15":"o","16":"m","2":"t","3":"o","4":"0","5":"9","6":"3","7":"@","8":"g","9":"m","level":"info","message":"tentativo di login ricevuto","service":"user-service","timestamp":"2024-12-09 21:21:23"}
+{"level":"info","message":"login effettuato anto093@gmail.com ","service":"user-service","timestamp":"2024-12-09 21:21:24"}
+{"level":"info","message":"Tentativo di autorizzazione ricevuto","service":"user-service","timestamp":"2024-12-09 21:21:54","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjhkZTg2YjBlLTEyNTEtNDE3MC05NDhiLWU1YzIxODBiMTZhMiIsImlhdCI6MTczMzc3NTY4NCwiZXhwIjoxNzMzNzc3NDg0fQ.thALFnRB_Ee6LjU_l4g8SvFAsxS_wPNUqVUtY3GF31A"}
+{"level":"info","message":"credenziali aggiunte con successo","service":"user-service","timestamp":"2024-12-09 21:21:54"}
+{"level":"info","message":"tabella svuotata con successo","service":"user-service","timestamp":"2024-12-09 21:22:47"}
+{"level":"info","message":"tabella svuotata con successo","service":"user-service","timestamp":"2024-12-09 21:22:53"}
+{"level":"info","message":"tabella svuotata con successo","service":"user-service","timestamp":"2024-12-09 21:22:59"}
+{"level":"info","message":"Verifica dell'utente esistente","service":"user-service","timestamp":"2024-12-09 21:23:01"}
+{"level":"info","message":"Tentativo di registrazione dell'utente","service":"user-service","timestamp":"2024-12-09 21:23:01"}
+{"level":"info","message":"Utente registrato con successo","service":"user-service","timestamp":"2024-12-09 21:23:02"}
+{"0":"a","1":"n","10":"a","11":"i","12":"l","13":".","14":"c","15":"o","16":"m","2":"t","3":"o","4":"0","5":"9","6":"3","7":"@","8":"g","9":"m","level":"info","message":"tentativo di login ricevuto","service":"user-service","timestamp":"2024-12-09 21:23:05"}
+{"level":"info","message":"login effettuato anto093@gmail.com ","service":"user-service","timestamp":"2024-12-09 21:23:06"}
+{"level":"info","message":"Tentativo di autorizzazione ricevuto","service":"user-service","timestamp":"2024-12-09 21:24:04","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYyZGIwNDI0LTk5MmQtNDA3YS05MWQ1LTE5ZTBjNWI5ZTA2ZSIsImlhdCI6MTczMzc3NTc4NiwiZXhwIjoxNzMzNzc3NTg2fQ.nqTiqVardbgyp9EmM-DHi40kAmLXw42XoF8zKH0rEnM"}
+{"level":"warn","message":"Utente non trovato","service":"user-service","timestamp":"2024-12-09 21:24:04"}
+{"level":"info","message":"Tentativo di autorizzazione ricevuto","service":"user-service","timestamp":"2024-12-09 21:24:39","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYyZGIwNDI0LTk5MmQtNDA3YS05MWQ1LTE5ZTBjNWI5ZTA2ZSIsImlhdCI6MTczMzc3NTc4NiwiZXhwIjoxNzMzNzc3NTg2fQ.nqTiqVardbgyp9EmM-DHi40kAmLXw42XoF8zKH0rEnM"}
+{"level":"info","message":"credenziali aggiunte con successo","service":"user-service","timestamp":"2024-12-09 21:24:39"}
+{"level":"info","message":"Verifica dell'utente esistente","service":"user-service","timestamp":"2024-12-09 21:24:55"}
+{"level":"info","message":"Tentativo di registrazione dell'utente","service":"user-service","timestamp":"2024-12-09 21:24:55"}
+{"level":"info","message":"Utente registrato con successo","service":"user-service","timestamp":"2024-12-09 21:24:56"}
+{"0":"a","1":"n","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"t","3":"o","4":"n","5":"i","6":"o","7":"0","8":"9","9":"3","level":"info","message":"tentativo di login ricevuto","service":"user-service","timestamp":"2024-12-09 21:25:12"}
+{"level":"info","message":"login effettuato antonio093@gmail.com ","service":"user-service","timestamp":"2024-12-09 21:25:12"}
+{"level":"info","message":"Tentativo di autorizzazione ricevuto","service":"user-service","timestamp":"2024-12-09 21:26:05","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImY1YmI5N2U1LTUzNzEtNDQ3Yi1hMDk3LThhNDBlNzcxM2Q1OCIsImlhdCI6MTczMzc3NTkxMiwiZXhwIjoxNzMzNzc3NzEyfQ.H6p7-sZfE_B9fHSKD6Mqo4KrEk9Y4IaMAdDT5uOTXro"}
+{"level":"info","message":"credenziali aggiunte con successo","service":"user-service","timestamp":"2024-12-09 21:26:05"}
+{"level":"info","message":"tentavivo di autorizzazione ricevuto","service":"user-service","timestamp":"2024-12-09 21:37:04","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImY1YmI5N2U1LTUzNzEtNDQ3Yi1hMDk3LThhNDBlNzcxM2Q1OCIsImlhdCI6MTczMzc3NTkxMiwiZXhwIjoxNzMzNzc3NzEyfQ.H6p7-sZfE_B9fHSKD6Mqo4KrEk9Y4IaMAdDT5uOTXro"}
+{"level":"info","message":"credenziali aggiunte con successo","service":"user-service","timestamp":"2024-12-09 21:37:04"}
+{"level":"warn","message":"Token non valido o privo di idUser","service":"user-service","timestamp":"2024-12-09 21:39:09"}
+{"level":"info","message":"tabella svuotata con successo","service":"user-service","timestamp":"2024-12-09 21:39:16"}
+{"level":"info","message":"tabella svuotata con successo","service":"user-service","timestamp":"2024-12-09 21:39:20"}
+{"level":"info","message":"tabella svuotata con successo","service":"user-service","timestamp":"2024-12-09 21:39:25"}
+{"level":"info","message":"Verifica dell'utente esistente","service":"user-service","timestamp":"2024-12-09 21:39:26"}
+{"level":"info","message":"Tentativo di registrazione dell'utente","service":"user-service","timestamp":"2024-12-09 21:39:26"}
+{"level":"info","message":"Utente registrato con successo","service":"user-service","timestamp":"2024-12-09 21:39:27"}
+{"0":"a","1":"n","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"t","3":"o","4":"n","5":"i","6":"o","7":"0","8":"9","9":"3","level":"info","message":"tentativo di login ricevuto","service":"user-service","timestamp":"2024-12-09 21:39:32"}
+{"level":"info","message":"login effettuato antonio093@gmail.com ","service":"user-service","timestamp":"2024-12-09 21:39:32"}
+{"level":"warn","message":"Token non valido o privo di idUser","service":"user-service","timestamp":"2024-12-09 21:40:21"}
+{"level":"warn","message":"Token non valido o privo di idUser","service":"user-service","timestamp":"2024-12-09 21:41:12"}
+{"level":"warn","message":"Token non valido o privo di idUser","service":"user-service","timestamp":"2024-12-09 21:41:13"}
+{"level":"warn","message":"Token non valido o privo di idUser","service":"user-service","timestamp":"2024-12-09 21:41:14"}
+{"level":"warn","message":"Token non valido o privo di idUser","service":"user-service","timestamp":"2024-12-09 21:41:14"}
+{"level":"info","message":"Decoded token: {\"id\":\"3b2308a8-f91d-41f3-8cc9-ff09b3c968a1\",\"iat\":1733776772,\"exp\":1733778572}","service":"user-service","timestamp":"2024-12-09 21:44:11"}
+{"level":"warn","message":"Token non valido o privo di idUser","service":"user-service","timestamp":"2024-12-09 21:44:11"}
+{"level":"info","message":"Decoded token: {\"id\":\"3b2308a8-f91d-41f3-8cc9-ff09b3c968a1\",\"iat\":1733776772,\"exp\":1733778572}","service":"user-service","timestamp":"2024-12-09 21:47:04"}
+{"level":"warn","message":"Token non valido o privo di idUser","service":"user-service","timestamp":"2024-12-09 21:47:04"}
+{"level":"info","message":"Decoded token: {\"id\":\"3b2308a8-f91d-41f3-8cc9-ff09b3c968a1\",\"iat\":1733776772,\"exp\":1733778572}","service":"user-service","timestamp":"2024-12-09 21:47:06"}
+{"level":"warn","message":"Token non valido o privo di idUser","service":"user-service","timestamp":"2024-12-09 21:47:06"}
+{"level":"info","message":"Decoded token: {\"id\":\"3b2308a8-f91d-41f3-8cc9-ff09b3c968a1\",\"iat\":1733776772,\"exp\":1733778572}","service":"user-service","timestamp":"2024-12-09 21:47:06"}
+{"level":"warn","message":"Token non valido o privo di idUser","service":"user-service","timestamp":"2024-12-09 21:47:06"}
+{"level":"info","message":"Decoded token: {\"id\":\"3b2308a8-f91d-41f3-8cc9-ff09b3c968a1\",\"iat\":1733776772,\"exp\":1733778572}","service":"user-service","timestamp":"2024-12-09 21:48:08"}
+{"level":"warn","message":"Token non valido o privo di idUser","service":"user-service","timestamp":"2024-12-09 21:48:08"}
+{"level":"info","message":"Decoded token: {\"id\":\"3b2308a8-f91d-41f3-8cc9-ff09b3c968a1\",\"iat\":1733776772,\"exp\":1733778572}","service":"user-service","timestamp":"2024-12-09 21:48:30"}
+{"level":"warn","message":"Token non valido o privo di idUser","service":"user-service","timestamp":"2024-12-09 21:48:30"}
+{"level":"info","message":"credenziali aggiunte con successo","service":"user-service","timestamp":"2024-12-09 22:01:47"}
+{"level":"info","message":"Verifica dell'utente esistente","service":"user-service","timestamp":"2024-12-09 22:02:01"}
+{"level":"info","message":"Utente già esistente","service":"user-service","timestamp":"2024-12-09 22:02:01"}
+{"level":"info","message":"Verifica dell'utente esistente","service":"user-service","timestamp":"2024-12-09 22:02:14"}
+{"level":"info","message":"Tentativo di registrazione dell'utente","service":"user-service","timestamp":"2024-12-09 22:02:14"}
+{"level":"info","message":"Utente registrato con successo","service":"user-service","timestamp":"2024-12-09 22:02:14"}
+{"0":"a","1":"n","10":"a","11":"i","12":"l","13":".","14":"c","15":"o","16":"m","2":"t","3":"o","4":"0","5":"9","6":"3","7":"@","8":"g","9":"m","level":"info","message":"tentativo di login ricevuto","service":"user-service","timestamp":"2024-12-09 22:02:59"}
+{"level":"info","message":"login effettuato anto093@gmail.com ","service":"user-service","timestamp":"2024-12-09 22:03:00"}
+{"level":"info","message":"credenziali aggiunte con successo","service":"user-service","timestamp":"2024-12-09 22:03:40"}
+{"level":"info","message":"tabella svuotata con successo","service":"user-service","timestamp":"2024-12-12 23:33:41"}
+{"level":"info","message":"tabella svuotata con successo","service":"user-service","timestamp":"2024-12-12 23:33:56"}
+{"level":"info","message":"tabella svuotata con successo","service":"user-service","timestamp":"2024-12-12 23:34:01"}
+{"level":"info","message":"Verifica dell'utente esistente","service":"user-service","timestamp":"2024-12-12 23:34:04"}
+{"level":"info","message":"Tentativo di registrazione dell'utente","service":"user-service","timestamp":"2024-12-12 23:34:04"}
+{"level":"info","message":"Utente registrato con successo","service":"user-service","timestamp":"2024-12-12 23:34:05"}
+{"0":"a","1":"n","10":"a","11":"i","12":"l","13":".","14":"c","15":"o","16":"m","2":"t","3":"o","4":"0","5":"9","6":"3","7":"@","8":"g","9":"m","level":"info","message":"tentativo di login ricevuto","service":"user-service","timestamp":"2024-12-12 23:34:07"}
+{"level":"info","message":"login effettuato anto093@gmail.com ","service":"user-service","timestamp":"2024-12-12 23:34:07"}
+{"level":"warn","message":"Token non corrisponde all'utente richiesto","service":"user-service","timestamp":"2024-12-12 23:34:26"}
+{"level":"warn","message":"Token non corrisponde all'utente richiesto","service":"user-service","timestamp":"2024-12-12 23:34:30"}
+{"level":"info","message":"Credenziali aggiunte con successo","service":"user-service","timestamp":"2024-12-12 23:35:06"}
+{"level":"info","message":"Verifica dell'utente esistente","service":"user-service","timestamp":"2024-12-12 23:35:16"}
+{"level":"info","message":"Tentativo di registrazione dell'utente","service":"user-service","timestamp":"2024-12-12 23:35:16"}
+{"level":"info","message":"Utente registrato con successo","service":"user-service","timestamp":"2024-12-12 23:35:16"}
+{"0":"a","1":"n","10":"@","11":"g","12":"m","13":"a","14":"i","15":"l","16":".","17":"c","18":"o","19":"m","2":"t","3":"o","4":"n","5":"i","6":"o","7":"0","8":"9","9":"3","level":"info","message":"tentativo di login ricevuto","service":"user-service","timestamp":"2024-12-12 23:35:27"}
+{"level":"info","message":"login effettuato antonio093@gmail.com ","service":"user-service","timestamp":"2024-12-12 23:35:27"}
+{"level":"warn","message":"Token non corrisponde all'utente richiesto","service":"user-service","timestamp":"2024-12-12 23:36:04"}
+{"level":"warn","message":"Token non corrisponde all'utente richiesto","service":"user-service","timestamp":"2024-12-12 23:36:25"}
+{"level":"info","message":"Credenziali aggiunte con successo","service":"user-service","timestamp":"2024-12-12 23:38:06"}
+{"level":"warn","message":"Token non corrisponde all'utente richiesto","service":"user-service","timestamp":"2024-12-12 23:38:50"}
+{"level":"info","message":"Credenziali aggiunte con successo","service":"user-service","timestamp":"2024-12-12 23:39:34"}

@@ -6,25 +6,35 @@ interface JwtRequest extends Request {
   user?: any; // Puoi specificare un tipo più preciso se necessario
 }
 
-export function authenticateToken(req: JwtRequest, res: Response, next: NextFunction): void {
+
+export function authenticateToken(req: JwtRequest, res: Response, next: NextFunction) {
   const authHeader = req.headers["authorization"];
   const token = authHeader && authHeader.split(" ")[1];
 
   if (!token) {
-    res.status(401).json({ message: "Token mancante" });
-    return; // Assicurati di terminare qui
+    return res.status(401).json({ message: "Token mancante" });
   }
 
-  jwt.verify(token, process.env.JWT_SECRET as string, (err, user) => {
+  // Verifica il token
+  jwt.verify(token, process.env.TOKEN_SECRET as string, (err, user) => {
     if (err) {
-      res.status(403).json({ message: "Token non valido" });
-      return; // Assicurati di terminare qui
+      return res.status(403).json({ message: "Token non valido" });
+    }
+    if (!user) {
+      return res.status(403).json({ message: "Utente non trovato" });
+    }
+    req.user = user;
+    const idUserFromParams = req.params.idUser;
+
+    
+    if ((user as { id: string }).id !== idUserFromParams) {
+      return res.status(403).json({ message: "Il token non corrisponde all'utente richiesto" });
     }
 
-    // Aggiungi i dettagli dell'utente verificato alla richiesta
-    req.user = user;
-    next(); // Passa al middleware successivo
+    next();
   });
+
+  
 }
 
 // Funzione per generare un token di accesso JWT

@@ -59,3 +59,24 @@
 {"level":"error","message":"Errore nel controller di login","service":"user-service","timestamp":"2024-12-06 11:33:31"}
 {"level":"error","message":"Nessuna modifica applicata all'utente","service":"user-service","timestamp":"2024-12-06 11:43:12"}
 {"level":"error","message":"Nessuna modifica applicata all'utente","service":"user-service","timestamp":"2024-12-06 11:43:15"}
+{"level":"error","message":"Unexpected error: SQLITE_CONSTRAINT: NOT NULL constraint failed: credenziali.idUser","service":"user-service","timestamp":"2024-12-06 11:56:39"}
+{"level":"error","message":"Unexpected error: SQLITE_CONSTRAINT: NOT NULL constraint failed: credenziali.idUser","service":"user-service","timestamp":"2024-12-06 11:59:13"}
+{"level":"error","message":"Unexpected error: SQLITE_CONSTRAINT: NOT NULL constraint failed: credenziali.idUser","service":"user-service","timestamp":"2024-12-06 12:02:37"}
+{"level":"error","message":"Unexpected error: SQLITE_CONSTRAINT: NOT NULL constraint failed: credenziali.idUser","service":"user-service","timestamp":"2024-12-06 12:05:13"}
+{"level":"error","message":"Unexpected error: SQLITE_CONSTRAINT: NOT NULL constraint failed: credenziali.idUser","service":"user-service","timestamp":"2024-12-06 12:11:37"}
+{"level":"error","message":"Unexpected error: SQLITE_CONSTRAINT: NOT NULL constraint failed: credenziali.idUser","service":"user-service","timestamp":"2024-12-08 23:41:50"}
+{"level":"error","message":"Unexpected error: SQLITE_CONSTRAINT: NOT NULL constraint failed: credenziali.idUser","service":"user-service","timestamp":"2024-12-08 23:47:26"}
+{"error":{"code":"SQLITE_CONSTRAINT","errno":19},"level":"error","message":"Error inserting credentials","service":"user-service","timestamp":"2024-12-08 23:50:31"}
+{"level":"error","message":"Unexpected error: SQLITE_CONSTRAINT: NOT NULL constraint failed: credenziali.idUser","service":"user-service","timestamp":"2024-12-08 23:55:36"}
+{"level":"error","message":"Errore nel controller di login","service":"user-service","timestamp":"2024-12-09 10:22:21"}
+{"level":"error","message":"Errore nel controller di cleanTableUser","service":"user-service","timestamp":"2024-12-09 10:22:44"}
+{"level":"error","message":"Errore nel controller di login","service":"user-service","timestamp":"2024-12-09 10:23:38"}
+{"level":"error","message":"Errore nel controller di logout","service":"user-service","timestamp":"2024-12-09 10:27:21"}
+{"level":"error","message":"Errore nel controller di logout","service":"user-service","timestamp":"2024-12-09 10:28:11"}
+{"level":"error","message":"Errore nel controller di login","service":"user-service","timestamp":"2024-12-09 10:33:14"}
+{"level":"error","message":"Unexpected error: Cannot set headers after they are sent to the client","service":"user-service","timestamp":"2024-12-09 10:54:08"}
+{"level":"error","message":"Unexpected error: Cannot set headers after they are sent to the client","service":"user-service","timestamp":"2024-12-09 21:07:06"}
+{"level":"error","message":"Unexpected error: Cannot set headers after they are sent to the client","service":"user-service","timestamp":"2024-12-09 21:11:37"}
+{"level":"error","message":"Unexpected error: Cannot set headers after they are sent to the client","service":"user-service","timestamp":"2024-12-09 21:12:41"}
+{"level":"error","message":"Unexpected error: Cannot set headers after they are sent to the client","service":"user-service","timestamp":"2024-12-09 21:13:21"}
+{"level":"error","message":"Unexpected error: Cannot set headers after they are sent to the client","service":"user-service","timestamp":"2024-12-09 21:14:12"}

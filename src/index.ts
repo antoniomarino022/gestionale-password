@@ -58,7 +58,7 @@ initializeDatabase();
 
 app.use("/user", routerUser);
 app.use("/auth",routerAuth);
-app.use("credenziali",routerCredenziali);
+app.use("/credenziali",routerCredenziali);
 
 
 

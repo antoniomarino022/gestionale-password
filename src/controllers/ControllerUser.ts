@@ -11,8 +11,6 @@ export class UserController {
   ): Promise<void> {
     try {
       await modelUser.cleanTableUser(req, res, next);
-      logger.error("Errore nel controller di cleanTableUser");
-      res.status(500).json({ message: "Errore interno del server" });
     } catch (err) {
       if (err instanceof Error) {
         logger.error(`Errore standard di Js: ${err.message}`);

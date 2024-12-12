@@ -6,7 +6,7 @@ import logger from "../middleware/logger";
 import * as bcrypt from "bcrypt";
 import { validateEmail, validatePassword } from "../middleware/validator";
 import { generateAccessToken } from "../middleware/authenticateToken";
-import { authenticateToken } from "../middleware/authenticateToken";
+
 
 
 let dbPromise: Promise<any>;
@@ -37,7 +37,7 @@ export class modelAuth {
   
       if (result.changes > 0) {
         logger.info("tabella svuotata con successo");
-        return res.status(201).json({
+        return res.status(200).json({
           message: "tabella svuotata con successo",
         });
       } else {
@@ -163,7 +163,7 @@ export class modelAuth {
       const token = authHeader && authHeader.split(" ")[1];
 
       if (token == null)
-        return res.sendStatus(401).json({ message: "Token NON VALIDO" });
+        return res.status(401).json({ message: "Token NON VALIDO" });
 
       const verifyAuth = await db.get("SELECT token FROM auth");
 

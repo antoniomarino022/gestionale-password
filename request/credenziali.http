@@ -1,0 +1,18 @@
+### clean table credenziali
+DELETE http://localhost:3000/credenziali/clean
+Content-Type: application/json
+
+
+
+
+### register password
+POST http://localhost:3000/credenziali/register-password/af7e8c4a-eed0-49e8-b170-1aa345dcdc0c
+Content-Type: application/json
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFmN2U4YzRhLWVlZDAtNDllOC1iMTcwLTFhYTM0NWRjZGMwYyIsImlhdCI6MTczNDA0MjkyNywiZXhwIjoxNzM0MDQ0NzI3fQ.UIBOc7dT1y5Twg4PR2xB3I400g4P0RxaRKeth8WVui8
+
+{
+    "username":"antonio29",
+    "email":"antonio34923@hotmail.it",
+    "password":"GH@837hdn4JD",
+    "service":"epic games"  
+}

@@ -7,8 +7,6 @@ export class ControllerAuth {
   async cleanTableAuth(req: Request, res: Response, next: NextFunction): Promise<void> {
     try {
       await authModel.cleanTableAuth(req, res, next);
-      logger.error("Errore nel controller di login");
-      res.status(500).json({ message: "Errore interno del server" });
     } catch (err) {
       if (err instanceof Error) {
         logger.error(`Errore standard di Js: ${err.message}`);
@@ -27,8 +25,6 @@ export class ControllerAuth {
   async login(req: Request, res: Response, next: NextFunction): Promise<void> {
     try {
       await authModel.login(req, res, next);
-      logger.error("Errore nel controller di login");
-      res.status(500).json({ message: "Errore interno del server" });
     } catch (err) {
       if (err instanceof Error) {
         logger.error(`Errore standard di Js: ${err.message}`);
@@ -47,8 +43,6 @@ export class ControllerAuth {
   async logout(req: Request, res: Response, next: NextFunction): Promise<void> {
     try {
       await authModel.logout(req, res, next);
-      logger.error("Errore nel controller di logout");
-      res.status(500).json({ message: "Errore interno del server" });
     } catch (err) {
       if (err instanceof Error) {
         logger.error(`Errore standard di Js: ${err.message}`);

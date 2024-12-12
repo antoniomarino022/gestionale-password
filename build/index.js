@@ -62,7 +62,7 @@ CREATE TABLE IF NOT EXISTS credenziali (
 initializeDatabase();
 app.use("/user", RouterUser_1.routerUser);
 app.use("/auth", RouterAuth_1.routerAuth);
-app.use("credenziali", RouterCredenziali_1.routerCredenziali);
+app.use("/credenziali", RouterCredenziali_1.routerCredenziali);
 app.listen(port, () => {
     console.log(`Server in ascolto su http://localhost:${port}`);
 });

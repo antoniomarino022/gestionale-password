@@ -9,10 +9,10 @@ Content-Type: application/json
 
 {
     "email":"antonio093@gmail.com",
-    "password":"H6@kjd76mdn4t"
+    "password":"H6@kjk76mdn57h"
 }
 
 ### logout
 DELETE http://localhost:3000/auth/logout
 Content-Type: application/json
-Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQ0ODkxNDEwLTA4NTYtNGUwYy1iMWJiLTM3YzdkNWEyMmZkNSIsImlhdCI6MTczMzQ3OTExMSwiZXhwIjoxNzMzNDgwOTExfQ.Bfx0T51mJoPYATCpiPiKr3lN-St8AR9HVEz9y55OQI0
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjIwYzRiYTkzLTRmYmQtNGFjMS05OTRhLWJhYjdiNDJkZWJjYSIsImlhdCI6MTczMzczNjIxOCwiZXhwIjoxNzMzNzM4MDE4fQ.ReSO_KX-rxqiDa1l-lNGu9U0taidJAoNGJJyX2H-dXc

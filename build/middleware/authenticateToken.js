@@ -10,17 +10,22 @@ function authenticateToken(req, res, next) {
     const authHeader = req.headers["authorization"];
     const token = authHeader && authHeader.split(" ")[1];
     if (!token) {
-        res.status(401).json({ message: "Token mancante" });
-        return; // Assicurati di terminare qui
+        return res.status(401).json({ message: "Token mancante" });
     }
-    jsonwebtoken_1.default.verify(token, process.env.JWT_SECRET, (err, user) => {
+    // Verifica il token
+    jsonwebtoken_1.default.verify(token, process.env.TOKEN_SECRET, (err, user) => {
         if (err) {
-            res.status(403).json({ message: "Token non valido" });
-            return; // Assicurati di terminare qui
+            return res.status(403).json({ message: "Token non valido" });
         }
-        // Aggiungi i dettagli dell'utente verificato alla richiesta
+        if (!user) {
+            return res.status(403).json({ message: "Utente non trovato" });
+        }
         req.user = user;
-        next(); // Passa al middleware successivo
+        const idUserFromParams = req.params.idUser;
+        if (user.id !== idUserFromParams) {
+            return res.status(403).json({ message: "Il token non corrisponde all'utente richiesto" });
+        }
+        next();
     });
 }
 // Funzione per generare un token di accesso JWT

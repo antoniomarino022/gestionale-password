@@ -5,6 +5,7 @@ import { v4 as uuid } from "uuid";
 import logger from "../middleware/logger";
 import { validateEmail, validatePassword } from "../middleware/validator";
 import * as bcrypt from "bcrypt";
+import jwt, { JwtPayload } from 'jsonwebtoken';
 
 let dbPromise: Promise<any>;
 
@@ -171,10 +172,24 @@ async updateUser(req: Request, res: Response, next: NextFunction){
       logger.warn("Nessun header di autorizzazione presente");
       return res.status(401).json({ message: "Autorizzazione mancante" });
     }
-    const token = authHeader && authHeader.split(" ")[1];
+    const token = authHeader.split(" ")[1];
 
-    if (token == null)
-      return res.sendStatus(401).json({ message: "Token NON VALIDO" });
+    if (!token) {
+      return res.status(401).json({ message: "Token non valido" });
+    }
+
+    let decodedToken: JwtPayload;
+    try {
+      decodedToken = jwt.verify(token, process.env.TOKEN_SECRET || "default_secret") as JwtPayload;
+    } catch (err) {
+      logger.error("Token non valido o scaduto");
+      return res.status(401).json({ message: "Token non valido o scaduto" });
+    }
+
+    if (decodedToken.id !== idUser) {
+      logger.warn("Token non corrisponde all'utente richiesto");
+      return res.status(403).json({ message: "Accesso non autorizzato" });
+    }
 
     const verifyAuth = await db.get("SELECT token FROM auth");
 
@@ -202,7 +217,7 @@ async updateUser(req: Request, res: Response, next: NextFunction){
       return res.status(200).json({ message: "Utente modificato con successo" });
     } else {
       logger.error("Nessuna modifica applicata all'utente");
-      return res.status(304).json({ message: "Nessuna modifica applicata all'utente" }); // Usa 304 per "Not Modified"
+      return res.status(304).json({ message: "Nessuna modifica applicata all'utente" });
     }
   } catch (err) {
     if (err instanceof Error) {
@@ -244,16 +259,30 @@ async updateUser(req: Request, res: Response, next: NextFunction){
         });
       }
 
-      
       const authHeader = req.headers["authorization"];
       if (!authHeader) {
         logger.warn("Nessun header di autorizzazione presente");
         return res.status(401).json({ message: "Autorizzazione mancante" });
       }
-      const token = authHeader && authHeader.split(" ")[1];
-
-      if (token == null)
-        return res.sendStatus(401).json({ message: "Token NON VALIDO" });
+      const token = authHeader.split(" ")[1];
+  
+      if (!token) {
+        return res.status(401).json({ message: "Token non valido" });
+      }
+  
+      let decodedToken: JwtPayload;
+      try {
+        decodedToken = jwt.verify(token, process.env.TOKEN_SECRET || "default_secret") as JwtPayload;
+      } catch (err) {
+        logger.error("Token non valido o scaduto");
+        return res.status(401).json({ message: "Token non valido o scaduto" });
+      }
+  
+      if (decodedToken.id !== idUser) {
+        logger.warn("Token non corrisponde all'utente richiesto");
+        return res.status(403).json({ message: "Accesso non autorizzato" });
+      }
+  
 
       const verifyAuth = await db.get("SELECT token FROM auth");
 
